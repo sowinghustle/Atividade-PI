@@ -1,0 +1,139 @@
+:root {
+    --azulmeu:rgb(150, 168, 245);
+    --gmail: rgb(219, 68, 55);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap');
+
+
+body{
+    background: #FFFFFF;
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+    color: #403D3D;
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+    margin: 30px;
+    display: inline-block;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: xxx-large;
+    font-weight: 800;
+    color: #403D3D;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+div.form label{
+    display: inline-block;
+ width: 18ch;
+ 
+
+}
+
+div.form {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+form {
+
+    border: #FFF5C0;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #FFF5C0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.labels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #403D3D;
+}
+
+ input {
+/* adicione padding, width, height e margin */
+padding: 5px;
+width: 300px;
+}
+
+ input[type=submit] {
+    padding: 0;
+    height: 50px;
+    width: 200px;
+    font-family: poppins;
+    border-radius: 10px;
+    
+}
+
+.busca {
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.labelsBusca input {
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 5%;
+}
+.labelsBusca input::after {
+border: none;
+}
+    
+.labelsBusca input[type=submit] {
+    padding: 0;
+    height: 35px;
+    width: 100px;
+    font-family: poppins;
+    border-radius: 6px;
+    margin: 15px auto 0;
+    display: block;
+    border-width: 0;
+}
+.labelsBusca input[type=submit]:hover {
+background-color:rgba(105, 91, 91, 0.158);
+}
+.labelsBusca {
+    display: block;
+    width: 400px;
+} 
+.labelsBusca > div:first-child {
+    display: flex;
+}
+.labelsBusca > div:first-child label {
+    width: 8ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelsBusca > div:first-child input {
+    flex-grow: 1;
+}
+
+
+
+
+.fa-arrow-left:hover{
+    cursor: pointer;
+    color: var(--gmail);
+}
